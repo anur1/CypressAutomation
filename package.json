@@ -5,24 +5,17 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-  
-   
-   
     "cypress-cli": "cypress open",
     "cypress-headed": "cypress run -b chrome",
     "cypress-headless": "cypress run --headless -b chrome",
     "eslint": "eslint cypress",
     "eslint-fix": "eslint cypress --fix"
-
-
-
-
-
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "cypress": "^12.11.0"
+    "cypress": "^12.11.0",
+    "cypress-file-upload": "^5.0.8"
   },
   "devDependencies": {
     "eslint": "^8.40.0",
@@ -37,9 +30,4 @@
     "husky": "^8.0.3",
     "prettier": "^2.8.8"
   }
-
-
-
-
-  
 }
